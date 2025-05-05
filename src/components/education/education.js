@@ -4,7 +4,8 @@ import education from '../../assets/lottie/education.json';
 import { ThemeContext } from '../../contexts/theme-context';
 import { educationData } from '../../data/education-data';
 import styles from '../../styles/education.module.css';
-import AnimationLottie from '../Animation';
+import dynamic from 'next/dynamic';
+const AnimationLottie = dynamic(() => import('../Animation'), { ssr: false });
 import EducationCard from './education-card';
 
 
