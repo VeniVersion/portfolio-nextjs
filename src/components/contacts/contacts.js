@@ -149,7 +149,7 @@ function Contacts() {
                                         <AiOutlineSend
                                             className={styles.sendIcon}
                                             style={{
-                                                animation: !success
+                                                Animation: !success
                                                     ? 'initial'
                                                     : 'fly 0.8s linear both',
                                                 position: success

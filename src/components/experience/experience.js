@@ -4,7 +4,7 @@ import experience from '../../assets/lottie/development.json';
 import { ThemeContext } from '../../contexts/theme-context';
 import { experienceData } from '../../data/experience-data';
 import styles from '../../styles/experience.module.css';
-import AnimationLottie from '../animation';
+import AnimationLottie from '../Animation';
 import ExperienceCard from './experience-card';
 
 function Experience() {
@@ -15,7 +15,7 @@ function Experience() {
             <Container className={styles.experience} id="experience">
                 <div className={styles.experienceBody}>
                     <div className={styles.experienceImage}>
-                        <AnimationLottie animationPath={experience} />
+                        <AnimationLottie AnimationPath={experience} />
                     </div>
                     <div className={styles.experienceDescription}>
                         <h1 style={{ color: theme.primary }}>Experience</h1>

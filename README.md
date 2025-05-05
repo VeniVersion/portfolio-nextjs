@@ -192,12 +192,12 @@ yarn dev
 │   ├── pages
 │   │   ├── Blog
 │   │   │   ├── BlogPage.css
-│   │   │   └── Index.js
+│   │   │   └── index.js
 │   │   ├── Home
-│   │   │   └── Index.js
+│   │   │   └── index.js
 │   │   ├── Project
 │   │   │   ├── ProjectPage.css
-│   │   │   └── Index.js
+│   │   │   └── index.js
 │   │   └── index.js
 │   ├── reportWebVitals.js
 │   ├── theme
