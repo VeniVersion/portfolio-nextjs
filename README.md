@@ -269,8 +269,10 @@ export const educationData = [
     id: 1,
     institution: "-- INSTITUTION NAME --",
     course: "-- COURSE NAME --",
+    /*
     startYear: "2017",
     endYear: "2019",
+    */
   },
   //
 ];

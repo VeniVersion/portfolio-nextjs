@@ -103,8 +103,8 @@ function Landing() {
                         <h1>{headerData.name}</h1>
                         <Typed
                             strings={[
-                                'Backend Developer',
-                                'Frontend Developer',
+                                'Data Engineer',
+                                'Data Analyst',
                                 'Fullstack Developer']}
                             typeSpeed={40}
                             backSpeed={50}

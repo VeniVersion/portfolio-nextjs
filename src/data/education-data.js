@@ -1,18 +1,20 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'Noakhali Government College',
-        course: 'Bachelor Degree',
-        startYear: '2020',
-        endYear: 'Present'
+        institution: 'St. Cloud State University',
+        course: 'Masters Degree',
+        startYear: 'MEM',
+        endYear: '(Big Data)'
     },
     {
         id: 2,
-        institution: 'Noakhali Islamia Kamil Madrasah',
-        course: 'Higher Secondary',
-        startYear: '2018',
-        endYear: '2020'
+        institution: 'Jawaharlal Nehru Technological University',
+        course: 'Bachelors Degree',
+        startYear: '',
+        endYear: ''
     },
+
+    /*
     {
         id: 3,
         institution: 'Baitus Saif Islamia Madrasah',
@@ -20,4 +22,5 @@ export const educationData = [
         startYear: '2008',
         endYear: '2018'
     },
+    */
 ]
