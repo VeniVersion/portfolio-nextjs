@@ -6,6 +6,8 @@ import { educationData } from '../../data/education-data';
 import styles from '../../styles/education.module.css';
 import dynamic from 'next/dynamic';
 const AnimationLottie = dynamic(() => import('../Animation'), { ssr: false });
+
+
 import EducationCard from './education-card';
 
 
@@ -27,8 +29,8 @@ function Education() {
                                 id={edu.id}
                                 institution={edu.institution}
                                 course={edu.course}
-                                startYear={edu.startYear}
-                                endYear={edu.endYear}
+                                //startYear={edu.startYear}
+                                //endYear={edu.endYear}
                             />
                         ))}
                     </div>
